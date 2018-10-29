@@ -28,10 +28,6 @@ $ conda install cookiecutter
 
     cookiecutter https://github.com/drivendata/cookiecutter-data-science
 
-
-[![asciicast](https://asciinema.org/a/9bgl5qh17wlop4xyxu9n9wr02.png)](https://asciinema.org/a/9bgl5qh17wlop4xyxu9n9wr02)
-
-
 ### The resulting directory structure
 ------------
 
@@ -64,28 +60,24 @@ The directory structure of your new project looks like this:
 │                         generated with `pip freeze > requirements.txt`
 │
 ├── src                <- Source code for use in this project.
-│   ├── __init__.py    <- Makes src a Python module
+│   ├── __init__.py    <- Required to use src as a Python module
 │   │
 │   ├── data           <- Scripts to download or generate data
-│   │   └── make_dataset.py
+│   │   └── make_dataset.xyz
 │   │
 │   ├── features       <- Scripts to turn raw data into features for modeling
-│   │   └── build_features.py
+│   │   └── build_features.xyz
 │   │
 │   ├── models         <- Scripts to train models and then use trained models to make
 │   │   │                 predictions
-│   │   ├── predict_model.py
-│   │   └── train_model.py
+│   │   ├── predict_model.xyz
+│   │   └── train_model.xyz
 │   │
 │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-│       └── visualize.py
+│       └── visualize.xyz
 │
 └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 ```
-
-## Contributing
-
-We welcome contributions! [See the docs for guidelines](https://drivendata.github.io/cookiecutter-data-science/#contributing).
 
 ### Installing development requirements
 ------------
